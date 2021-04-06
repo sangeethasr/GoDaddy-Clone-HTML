@@ -1,5 +1,9 @@
 
-violet color
+Light Blue color
+
+#f4f8fc
+
+Violet color
 
 #2f1a4b
 
