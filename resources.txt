@@ -1,4 +1,8 @@
 
+Light Grey color  
+
+#ebebeb
+
 Light Blue color
 
 #f4f8fc

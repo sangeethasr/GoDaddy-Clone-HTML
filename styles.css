@@ -19,8 +19,9 @@ body{
 
 .nav-first-section{
     display: inline;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    color: #868383;
 }
 
 .nav-first-section-img{
@@ -35,18 +36,19 @@ body{
 
 .nav-second-section{
     display: inline;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    color: #868383;
 }
 
 /* NAVBAR LINKS SECTION */
 
 /* sub-section 1 */
-.domains{
+
+#domains{
+    display: none;
     overflow: hidden;
-    display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid red;
 }
 
 .domain-section1{
@@ -89,10 +91,9 @@ body{
 
 /* sub-section 2 */
 
-.hosting{
-    display: flex;
+#hosting{
+    display: none;
     justify-content: space-between;
-    border-bottom: 1px solid red;
 }
 
 .hosting-list-section{
@@ -110,11 +111,131 @@ body{
 
 /* sub-section 3 */
 
-.security{
-    display: flex;
+#security{
+    display: none;
     justify-content: space-between;
-    border-bottom: 1px solid red;
 }
+
+/* sub-section 4 */
+
+#Marketing{
+    display: none;
+    justify-content: space-between;
+}
+
+/* sub-section 5 */
+
+#contactus{
+    display: none;
+    background-color: #ebebeb;
+    padding-right: 2rem;
+}
+
+.contactus-close{
+    padding-top: 2rem;
+}
+
+.contactus-button{
+    border: 2px solid black;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.contactus-flex{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contactus-section1{
+    padding-right: 8rem;
+}
+
+.contactus-section2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 3rem;
+    padding-right: 8rem;
+}
+
+.contact-section2-link1{
+    font-weight: bolder;
+    line-height: 2;
+}
+
+
+.contact-section2-link3{
+    color: #10be99;
+}
+
+/* sub-section 6 */
+#signin{
+    display: none;
+    background-color: #ebebeb;
+    padding-right: 2rem;
+}
+
+.signin-list-flex{
+    display: flex;
+}
+
+.signin-list{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.signin-list-head{
+    font-weight: bolder;
+}
+
+.signin-list-items{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.signin-section1{
+    padding-right: 8rem;
+    flex-grow: 2;
+}
+
+.sigin-section2{
+    display: inline;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0%;
+}
+
+.create-account-btn{
+    font-weight: bolder;
+    font-size: medium;
+    padding: 1rem 4rem 1rem 4rem;
+    border: 2px solid black;
+}
+
+.signin-section3{
+    border: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0%;
+}
+
+.signin-btn{
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    padding: 0.8rem 3rem 0.8rem 3rem;
+    border: 2px solid black;
+}
+
+/*------------------------------------------- HOVER SECTION ------------------------------------------ */
+
+/*---------------------------------------------------------------------------------------------------- */
 /* SEARCH SECTION */
 
 .wallpaper{
