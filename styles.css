@@ -5,10 +5,18 @@ body{
 
 /* NAVBAR SECTION */
 
+.navbar-main-div{
+    padding-left: 1rem; 
+    padding-right: 2rem;
+    padding-top: 2rem;
+    border-bottom: 1px solid transparent;
+}
+
 .navbar{
+    height: 5rem;
     overflow: hidden;
     display: flex;
-    border: 1px solid black;
+    justify-content: space-between;
 }
 
 .nav-first-ul{
@@ -22,6 +30,7 @@ body{
     margin-left: 0.8rem;
     margin-right: 0.8rem;
     color: #868383;
+    padding-bottom: 2.8rem;
 }
 
 .nav-first-section-img{
@@ -31,7 +40,6 @@ body{
 .nav-second-ul{
     list-style: none;
     display: inline;
-    padding-left: 20rem;
 }
 
 .nav-second-section{
@@ -41,14 +49,37 @@ body{
     color: #868383;
 }
 
+#downArrow1{
+    display: inline;
+}
+
+#upArrow1{
+    display: none;
+}
+
+#downArrow2{
+    display: inline;
+}
+
+#upArrow2{
+    display: none;
+}
+
 /* NAVBAR LINKS SECTION */
 
 /* sub-section 1 */
-
 #domains{
+    border-top: 1px solid #ddd;
     display: none;
+    z-index: 1; 
+    position: absolute; 
+    width: 100%;
+}
+.domain-class{
+    display: flex;
     overflow: hidden;
     justify-content: space-between;
+    background-color: white;
 }
 
 .domain-section1{
@@ -92,8 +123,17 @@ body{
 /* sub-section 2 */
 
 #hosting{
+    border-top: 1px solid #ddd;
     display: none;
+    z-index: 1; 
+    position: absolute; 
+    width: 100%;
+}
+
+.hosting-class{
+    display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .hosting-list-section{
@@ -112,21 +152,47 @@ body{
 /* sub-section 3 */
 
 #security{
+    border-top: 1px solid #ddd;
     display: none;
+    z-index: 1; 
+    position: absolute; 
+    width: 100%;
+}
+
+.security-class{
+    display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 /* sub-section 4 */
 
 #Marketing{
+    border-top: 1px solid #ddd;
     display: none;
+    z-index: 1; 
+    position: absolute; 
+    width: 100%;
+}
+
+.Marketing-class{
+    display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 /* sub-section 5 */
 
 #contactus{
+    border-top: 1px solid #ddd;
     display: none;
+    z-index: 1; 
+    position: absolute; 
+    width: 100%;
+}
+
+.contactus-class{
+    display: block;
     background-color: #ebebeb;
     padding-right: 2rem;
 }
@@ -173,7 +239,15 @@ body{
 
 /* sub-section 6 */
 #signin{
+    border-top: 1px solid #ddd;
     display: none;
+    z-index: 1; 
+    position: absolute; 
+    width: 100%;
+}
+
+.signin-class{
+    display: block;
     background-color: #ebebeb;
     padding-right: 2rem;
 }
@@ -235,57 +309,140 @@ body{
 
 /*------------------------------------------- HOVER SECTION ------------------------------------------ */
 
+.domain-link:hover, .hosting-link:hover, .security-link:hover, .marketing-link:hover{
+    color: black;
+}
+
+.domain-link:active, .hosting-link:active, .security-link:active, .marketing-link:active{
+    border-bottom: 3px solid black;
+}
+
 /*---------------------------------------------------------------------------------------------------- */
 /* SEARCH SECTION */
 
+.search-bar-section{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.search{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 10rem;
+    padding-left: 1rem;
+    margin: 0%;
+    font-size: 1.3rem;
+    color: black;
+    background-color: #ebebeb;
+    float: left;
+    border: 3px solid #ebebeb;
+    outline: none;
+}
+
+.search:hover{
+    border: 3px solid #1976d2;
+}
+.search:active{
+    border: 3px solid #1976d2;
+}
+
+
+::placeholder {
+    padding-left: 1rem;
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    padding-left: 1rem;
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    padding-left: 1rem;
+    color: black;
+  }
+
+.search-btn{
+    padding: 1.4rem;
+    margin: 0%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #00a4a6;
+}
+
+.search-list{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+/* WALLPAPER SECTION */
+
 .wallpaper{
+    margin-top: 1rem;
+    
     display: flex;
     flex-direction: row;
     width: 100%;
 
-    position: absolute;
+    background-image: url(images/Dhoni.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* position: relative;
     z-index: 1;
-    top: 1rem;
+    top: 1rem; */
     justify-content: space-between;
-}
-
-.main-wallpaper{
-    width: 100vw;
 }
 
 .wallpaper-poster{
     display: inline-block;
     width: 40vw;
-    background-color: tomato;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .keyword{
     text-align: center;
+    font-weight: bold;
+    margin: 0%;
 }
 
 .plan{
     font-weight: bolder;
-    font-size: 290%;
+    font-size: 300%;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .quote{
     text-align: center;
 }
 
-.button{
+.wallpaper-btn-div{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+
+.wallpaper-btn{
     background-color: black;
     padding: 1rem 2rem 1rem 2rem;
     color: white;
     outline: none;
     border: transparent;
 }
-
 /* --------     TABLE SECTION   -------- */
 .table-section {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 10vw);
+    grid-template-rows: repeat(2, 10vw);
     border: 1px solid black;
 }
 
