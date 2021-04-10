@@ -446,10 +446,10 @@ body{
     border: transparent;
 }
 
-/* --------     TABLE SECTION   -------- */
+/*  TABLE SECTION  */
 
 .table-section-div{
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -551,3 +551,74 @@ body{
 }
 
 /*---------------------------------------------------------------------------------------------------- */
+
+
+/*  PORTFOLIO SECTION  */
+
+/* portfolio sub-section 1*/
+
+.portfolio-section1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 2rem;
+}
+
+.portfolio-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio-tagline{
+    font-weight: bold;
+}
+
+.portfolio-heading{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0%;
+}
+
+.portfolio-des{
+    line-height: 2;
+}
+
+.portfolio-btn{
+    font-weight: bold;
+    padding: 1rem 3rem 1rem 3rem;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.portfolio-image{
+    width: 25rem;
+    height: 30rem;
+}
+
+/* portfolio sub-section 2 */
+
+.portfolio-section2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 2rem;
+}
+
+.portfolio-info2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio-image2{
+    width: 38rem;
+    height: 30rem;
+}
+
+/* portfolio sub-section 2 */
+
