@@ -1,4 +1,8 @@
 
+Table Header color
+
+#ddeaf8
+
 Light Grey color  
 
 #ebebeb
