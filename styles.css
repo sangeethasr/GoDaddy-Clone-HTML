@@ -1,6 +1,20 @@
+
+@font-face {
+    font-family: headingFont;
+    src: url(fonts/gd-sage-bold.woff2);
+}
+
+@font-face{
+    font-family: normalFont;
+    src: url(fonts/gdsherpa-vf.woff2);
+}
+
+
 body{
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
+    font-family: normalFont;
 }
 
 /* NAVBAR SECTION */
@@ -358,16 +372,19 @@ body{
 ::placeholder {
     padding-left: 1rem;
     color: black;
+    font-family: normalFont;
     opacity: 1; /* Firefox */
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
     padding-left: 1rem;
+    font-family: normalFont;
     color: black;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
     padding-left: 1rem;
+    font-family: normalFont;
     color: black;
   }
 
@@ -420,6 +437,7 @@ body{
 }
 
 .plan{
+    font-family: headingFont;
     font-weight: bolder;
     font-size: 300%;
     text-align: center;
@@ -577,6 +595,7 @@ body{
 }
 
 .portfolio-heading{
+    font-family: headingFont;
     font-size: 3rem;
     font-weight: bolder;
     margin: 0%;
@@ -697,6 +716,7 @@ body{
 
 .faq-heading{
     text-align: center;
+    font-family: headingFont;
     font-size: 3.5rem;
     font-weight: bolder;
     padding-left: 10rem;
@@ -735,4 +755,27 @@ body{
 
 .faq-answer{
     line-height: 2;
+}
+
+.faq-last-section{
+    margin-top: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.faq-last-section-link{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.phone-number-section{
+
+    margin: 0%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    text-align: center;
+    font-weight: normal;
+    font-size: x-large;
+    color: white;
+    background-color: #00a4a6;
 }
